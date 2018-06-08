@@ -1,0 +1,35 @@
+﻿生成启动时间为 2018/6/6 20:05:51。
+     1>项目“E:\下载文件\vs2016\ESA\ESA\ESA.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\ESA.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt codeANDencode.cpp show.cpp solveRSA.cpp
+     1>cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+         solveRSA.cpp
+     1>e:\下载文件\vs2016\esa\esa\solversa.cpp(44): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         正在生成代码...
+         正在编译...
+         show.cpp
+         codeANDencode.cpp
+     1>e:\下载文件\vs2016\esa\esa\codeandencode.cpp(137): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>e:\下载文件\vs2016\esa\esa\codeandencode.cpp(172): warning C4996: 'access': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _access. See online help for details.
+         c:\program files\windows kits\10\include\10.0.10150.0\ucrt\corecrt_io.h(439): note: 参见“access”的声明
+     1>e:\下载文件\vs2016\esa\esa\codeandencode.cpp(174): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>e:\下载文件\vs2016\esa\esa\codeandencode.cpp(193): warning C4996: 'getcwd': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getcwd. See online help for details.
+         c:\program files\windows kits\10\include\10.0.10150.0\ucrt\direct.h(91): note: 参见“getcwd”的声明
+     1>e:\下载文件\vs2016\esa\esa\codeandencode.cpp(213): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+         正在生成代码...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\下载文件\vs2016\ESA\Debug\ESA.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"E:\下载文件\vs2016\ESA\Debug\ESA.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\下载文件\vs2016\ESA\Debug\ESA.lib" /MACHINE:X86 Debug\ESA.res
+         Debug\codeANDencode.obj
+         Debug\RSA.obj
+         Debug\RSADlg.obj
+         Debug\show.obj
+         Debug\solveRSA.obj
+         Debug\stdafx.obj
+         ESA.vcxproj -> E:\下载文件\vs2016\ESA\Debug\ESA.exe
+     1>已完成生成项目“E:\下载文件\vs2016\ESA\ESA\ESA.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.52
